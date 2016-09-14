@@ -8,21 +8,26 @@ from sys import stdout, stderr
 
 
 DATASET_TEMPLATE = Template("""
-### {{dataset.title}}
 
-- [Google Spreadsheet]({{dataset.urls.gdrive}})
-- [Github](datasets/{{dataset.slug}}.csv)
-- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/{{dataset.slug}}.csv)
+-------------
+
+<a id="dataset-{{dataset.slug}}"></a>
+
+
+## {{dataset.title}}
+
+{{dataset.description}}
+
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
 | [{{dataset.publisher}}]({{dataset.urls.landing if dataset.urls.landing else dataset.urls.original}}) |  {{dataset.date_fetched}} | {{ncols}} | {{nrows}} |
 
+- [Google Spreadsheet]({{dataset.urls.gdrive}})
+- [Github](datasets/{{dataset.slug}}.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/{{dataset.slug}}.csv)
 
 
-###### Description
-
-{{dataset.description}}
 
 """)
 

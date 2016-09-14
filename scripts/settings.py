@@ -12,6 +12,8 @@ GITHUB_BASE_DATASET_RAW_URL = 'https://raw.githubusercontent.com/dannguyen/small
 DATASET_TEMPLATE = Template(Path('scripts', 'dataset_template.jinja.html').read_text())
 
 
+def make_dataset_anchortag(slug):
+    return 'dataset-%s' % slug
 
 def make_gsheet_url(id, gid=None):
     gurl = GSHEET_BASE_URL.format(id=id)
@@ -44,7 +46,7 @@ def get_dataset_publishing_meta(data, meta):
     m['references'] = meta.get('references')
     m['notes'] = meta.get('notes')
 
-
+    m['anchortag'] = make_dataset_anchortag(meta['slug'])
     m['google_spreadsheet_url'] = make_gsheet_url(id=meta['gsheet']['id'])
     m['github_dataset_url'] = make_github_dataset_repo_url(slug=meta['slug'])
     m['github_dataset_raw_url'] = make_github_dataset_raw_url(slug=meta['slug'])

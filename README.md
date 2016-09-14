@@ -9,7 +9,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <!-- begin makeindex -->
 
-find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
@@ -23,7 +22,7 @@ Adults booked into the Berkeley Police Department Jail over the past 30 days.
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [City of Berkeley](https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j/about) |  2016-09-14 |  |  |
+| [City of Berkeley](https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j/about) |  2016-09-14 | 18 | 239 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/berkeley-jail-bookings.csv)
@@ -49,7 +48,7 @@ An example of a real-world salary spreadsheet.
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [Buffer](https://open.buffer.com/transparent-salaries/) |  2016-08-26 |  |  |
+| [Buffer](https://open.buffer.com/transparent-salaries/) |  2016-08-26 | 3 | 92 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/buffer-open-salaries.csv)
@@ -77,7 +76,7 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [U.S. Census](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html) |  2016-08-01 |  |  |
+| [U.S. Census](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html) |  2016-08-01 | 11 | 10002 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/census-2000-surnames.csv)
@@ -102,7 +101,7 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [City and County of Denver Office of Marijuana Policy](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales) |  2016-09-14 |  |  |
+| [City and County of Denver Office of Marijuana Policy](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales) |  2016-09-14 | 4 | 66 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/denver-marijuana-gross-sales.csv)
@@ -127,7 +126,7 @@ Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [California State Controller](http://publicpay.ca.gov/) |  2016-09-14 |  |  |
+| [California State Controller](http://publicpay.ca.gov/) |  2016-09-14 | 28 | 11933 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/palo-altos-salaries.csv)
@@ -170,7 +169,7 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [Social Security Administration](https://www.ssa.gov/oact/babynames/limits.html) |  2016-09-14 |  |  |
+| [Social Security Administration](https://www.ssa.gov/oact/babynames/limits.html) |  2016-09-14 | 4 | 53028 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/ssa-babynames-1985-vs-2015.csv)
@@ -195,7 +194,7 @@ A listing of current and former notable Congressmembers, including biographical 
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [Sunlight Foundation and the unitedstates project](https://sunlightlabs.github.io/congress/#legislator-spreadsheet) |  2016-09-14 |  |  |
+| [Sunlight Foundation and the unitedstates project](https://sunlightlabs.github.io/congress/#legislator-spreadsheet) |  2016-09-14 | 29 | 898 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-congressmembers.csv)
@@ -221,7 +220,7 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [Federal Judicial Center](http://www.fjc.gov/history/home.nsf/page/export.html) |  2016-09-14 |  |  |
+| [Federal Judicial Center](http://www.fjc.gov/history/home.nsf/page/export.html) |  2016-09-14 | 202 | 3580 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-federal-judges-biographies.csv)
@@ -246,7 +245,7 @@ County-level results for the U.S. general elections in 2004 and 2008.
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [USGS National Atlas](https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download) |  2016-08-01 |  |  |
+| [USGS National Atlas](https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download) |  2016-08-01 | 15 | 6308 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv)
@@ -275,7 +274,7 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/search/) |  2016-09-14 |  |  |
+| [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/search/) |  2016-09-14 | 22 | 6610 |
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv)

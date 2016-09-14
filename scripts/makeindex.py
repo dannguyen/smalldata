@@ -14,11 +14,9 @@ DATASET_TEMPLATE = Template("""
 - [Github](datasets/{{dataset.slug}}.csv)
 
 
-
-
-| Last fetched | {{dataset.date_fetched}} |
-| Columns | {{ ncols }}    |
-| Rows    | {{ nrows }}    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| {{dataset.date_fetched}} | {{ncols}} | {{nrows}} |
 
 
 ###### Original publisher

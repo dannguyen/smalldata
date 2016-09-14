@@ -1,19 +1,15 @@
 # Small data
 
 
-python scripts/makeindex.py datasets.yaml
-
 ### U.S. Congressmembers
 
 - [Google Spreadsheet](None)
 - [Github](datasets/us-congressmembers.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 29    |
-| Rows    | 898    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 29 | 898 |
 
 
 ###### Original publisher
@@ -31,11 +27,9 @@ A listing of current and former notable Congressmembers, including biographical 
 - [Github](datasets/berkeley-jail-bookings.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 18    |
-| Rows    | 239    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 18 | 239 |
 
 
 ###### Original publisher
@@ -55,11 +49,9 @@ Note: The "Subject" field, which contained the name of each inmate, has been rem
 - [Github](datasets/denver-marijuana-gross-sales.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 4    |
-| Rows    | 66    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 4 | 66 |
 
 
 ###### Original publisher
@@ -77,11 +69,9 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 - [Github](datasets/ssa-babynames-1985-vs-2015.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 4    |
-| Rows    | 53028    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 4 | 53028 |
 
 
 ###### Original publisher
@@ -99,11 +89,9 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 - [Github](datasets/us-federal-judges-biographies.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 202    |
-| Rows    | 3580    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 202 | 3580 |
 
 
 ###### Original publisher
@@ -121,11 +109,9 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 - [Github](datasets/census-2000-surnames.csv)
 
 
-
-
-| Last fetched |  |
-| Columns | 11    |
-| Rows    | 10002    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+|  | 11 | 10002 |
 
 
 ###### Original publisher
@@ -143,11 +129,9 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 - [Github](datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
 
 
-
-
-| Last fetched |  |
-| Columns | 22    |
-| Rows    | 6610    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+|  | 22 | 6610 |
 
 
 ###### Original publisher
@@ -165,11 +149,9 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 - [Github](datasets/palo-altos-salaries.csv)
 
 
-
-
-| Last fetched | 2016-09-14 |
-| Columns | 28    |
-| Rows    | 11933    |
+| Last fetched | Columns | Rows |
+|--------------|---------|------|
+| 2016-09-14 | 28 | 11933 |
 
 
 ###### Original publisher

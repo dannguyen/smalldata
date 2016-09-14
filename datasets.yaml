@@ -1,4 +1,8 @@
 - title: Buffer Open Salaries
+  publisher: Buffer
+  slug: TK
+  description: |
+    An example of a real-world salary spreadsheet.
   date_fetched: 2016-08-26
   urls:
     gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
@@ -6,18 +10,107 @@
     landing: https://open.buffer.com/transparent-salaries/
 
 
-- title: Berkeley PD Log - Jail Bookings
+
+- title: U.S. Congressmembers
+  slug: us-congressmembers
+  publisher: Sunlight Foundation
+  description: |
+    A listing of current and former notable Congressmembers, including biographical information and identifiers into other databases (e.g. FEC, Bioguide, and social media)
+  date_fetched: 2016-09-14
+  urls:
+    landing: https://sunlightlabs.github.io/congress/#legislator-spreadsheet
+    original: http://unitedstates.sunlightfoundation.com/legislators/legislators.csv
+    gdrive:
+
+
+- title: Berkeley Police Department Jail Bookings
+  publisher: City of Berkeley
   slug: berkeley-jail-bookings
+  description: |
+    Adults booked into the Berkeley Police Department Jail over the past 30 days.
+
+    Note: The "Subject" field, which contained the name of each inmate, has been removed.
+
   date_fetched: 2016-09-14
   urls:
     original: https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j
-  caveats:
-    - "Subject" field has been removed
+    gdrive: https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns/edit#gid=817412220
+
+
 
 - title: Denver Marijuana Gross Sales
   slug: denver-marijuana-gross-sales
-  creator: City and County of Denver Office of Marijuana Policy
+  description: |
+    This data set summarizes the total dollar value of medical and retail marijuana sold within the City and County of Denver.
+  publisher: City and County of Denver Office of Marijuana Policy
   date_fetched: 2016-09-14
   urls:
     landing: https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales
     original: http://data.denvergov.org/download/gis/marijuana_gross_sales/csv/marijuana_gross_sales.csv
+    gdrive: https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw/edit#gid=2004741670
+
+
+- title: U.S. Baby Names 1985 vs. 2015
+  slug: ssa-babynames-1985-vs-2015
+  publisher: Social Security Administration
+  description: |
+    Nationwide counts of baby names by sex, according to Social Security Number applications in the years 1985 and 2015.
+  date_fetched: 2016-09-14
+  urls:
+    landing: https://www.ssa.gov/oact/babynames/limits.html
+    original: https://www.ssa.gov/oact/babynames/names.zip
+    gdrive: https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0/edit#gid=865374786
+
+
+- title: U.S. Federal Judges Biographical Directory
+  slug: us-federal-judges-biographies
+  publisher: Federal Judicial Center
+  description: |
+    Biographical and political information about U.S. federal judges, from 1789 to the present.
+  date_fetched: 2016-09-14
+  urls:
+    landing: http://www.fjc.gov/history/home.nsf/page/export.html
+    original: http://www.fjc.gov/history/export/jb.txt
+    gdrive: https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I/edit#gid=66538324
+
+
+- title: "U.S. Census 2000, Top 10,000 Surnames"
+  slug: census-2000-surnames
+  publisher: U.S. Census
+  description: |
+    The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includes demographic breakdown of each name.
+  urls:
+    landing: http://www.census.gov/topics/population/genealogy/data/2000_surnames.html
+    original: http://www2.census.gov/topics/genealogy/2000surnames/names.zip
+    gdrive: https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs/edit#gid=442585932
+
+- title: M4.0+ Earthquakes in the Contiguous United States
+  slug: usgs-m4-earthquakes-contiguous-united-states
+  publisher: United States Geological Survey
+  description: |
+    All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United States.
+  urls:
+    landing: http://earthquake.usgs.gov/earthquakes/search/
+    original: http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=1900-01-01%2000:00:00&endtime=2016-12-31%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=4&orderby=time-asc
+    gdrive: https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4/edit#gid=524073830
+
+
+- title: Palo Alto and East Palo Alto City Employee Salaries
+  slug: palo-altos-salaries
+  publisher: California Controller's Office
+  description: |
+    Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
+  date_fetched: 2016-09-14
+  urls:
+    landing: http://publicpay.ca.gov/Reports/RawExport.aspx
+    gdrive: https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI/edit#gid=392550862
+
+  build_code:
+      curl -O http://publicpay.ca.gov/RawExport/[2009-2015]_City.zip
+      unzip '*.csv'
+      sed -n 5p  2009_City.csv > all.csv
+      find . -name '*_City.csv' | while read -r fname; do
+        tail -n +6 "$fname" >> allcities.csv
+      done
+      csvgrep -c 'Entity Name' -m 'Palo Alto' -e latin1 \
+        allcities.csv > palo-altos-salaries.csv

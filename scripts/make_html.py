@@ -2,7 +2,9 @@ import argparse
 from csv import DictReader
 from pathlib import Path
 from sys import stdout, stderr
-from settings import get_dataset_publishing_meta, dataset_template
+from settings import get_dataset_publishing_meta,\
+                     dataset_template,\
+                     get_dataset_local_filename
 import yaml
 
 
@@ -12,7 +14,7 @@ if __name__ == '__main__':
         help="The name of a dataset YAML file")
     args = parser.parse_args()
     meta = yaml.load(args.infile.read())
-    datafilepath = Path('datasets', meta['slug'] + '.csv')
+    datafilepath = get_dataset_local_filename(meta['slug'])
     stderr.write("Reading data from %s\n" % datafilepath)
     # if not datafilepath.exists():
     #     stderr.write("Warning, %s does not exist; skipping\n" % datafilepath)

@@ -12,6 +12,9 @@ GITHUB_BASE_DATASET_RAW_URL = 'https://raw.githubusercontent.com/dannguyen/small
 DATASET_TEMPLATE = Template(Path('scripts', 'dataset_template.jinja.html').read_text())
 
 
+def get_dataset_local_filename(slug):
+    return Path('datasets', '%s.csv' % slug)
+
 def make_dataset_anchortag(slug):
     return 'dataset-%s' % slug
 

@@ -10,8 +10,6 @@ import yaml
 
 
 ROW_TEMPLATE = Template("""
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#{{dataset.anchortag}}">
@@ -34,7 +32,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     metadatafilenames = Path(args.metadir).glob('*.yaml')
-    stdout.write("""<table><tbody>\n""")
+    stdout.write("""
+        <h2>Contents</h2>
+        <table><tbody>\n""")
     for mn in metadatafilenames:
         meta = yaml.load(mn.read_text())
         dn = get_dataset_local_filename(meta['slug'])

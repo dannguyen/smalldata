@@ -10,9 +10,9 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 <!-- begin makeindex -->
 
 
-<table><tbody>
 
-<h2>Contents</h2>
+        <h2>Contents</h2>
+        <table><tbody>
 
 <tr>
     <td>
@@ -26,8 +26,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/berkeley-jail-bookings.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-buffer-open-salaries">
@@ -40,8 +38,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-census-2000-surnames">
@@ -54,8 +50,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/census-2000-surnames.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-denver-marijuana-gross-sales">
@@ -68,8 +62,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-palo-altos-salaries">
@@ -82,8 +74,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/palo-altos-salaries.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-ssa-babynames-1985-vs-2015">
@@ -96,8 +86,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/ssa-babynames-1985-vs-2015.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-us-congressmembers">
@@ -110,8 +98,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-congressmembers.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-us-federal-judges-biographies">
@@ -124,8 +110,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-federal-judges-biographies.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-us-presidential-election-county-results-2004-vs-2008">
@@ -138,8 +122,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv">Raw CSV</a></td>
 </tr>
-<h2>Contents</h2>
-
 <tr>
     <td>
       <a href="#dataset-usgs-m4-earthquakes-contiguous-united-states">

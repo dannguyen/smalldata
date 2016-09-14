@@ -10,9 +10,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 <!-- begin makeindex -->
 
 
-
-        <h2>Contents</h2>
-        <table><tbody>
+<h2>Contents</h2><table><tbody>
 
 <tr>
     <td>
@@ -154,12 +152,12 @@ Adults booked into the Berkeley Police Department Jail over the past 30 days.
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/berkeley-jail-bookings.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
 Note: The "Subject" field, which contained the name of each inmate, has been removed.
 
 
-#### License
-
-[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 
@@ -184,12 +182,12 @@ An example of a real-world salary spreadsheet.
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/buffer-open-salaries.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
 The original Buffer spreadsheet has a first line that reads "Buffer is hiring" instead of headers. The headers are on the second line. This facet is left in the Google spreadsheet and the CSV file for the user to deal with manually.
 
 
-#### License
-
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 #### References
 
@@ -216,11 +214,11 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/census-2000-surnames.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
 
 
-#### License
 
-[MIT](https://opensource.org/licenses/MIT)
+
 
 #### References
 
@@ -245,11 +243,11 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/denver-marijuana-gross-sales.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/termsofuse)
 
 
-#### License
 
-[Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/termsofuse)
+
 
 #### References
 
@@ -274,6 +272,9 @@ Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/palo-altos-salaries.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
 
 Here's the shell code I used to build the data (requires installing csvkit):
 
@@ -294,9 +295,6 @@ Here's the shell code I used to build the data (requires installing csvkit):
 ~~~
 
 
-#### License
-
-[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 
@@ -321,11 +319,11 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/ssa-babynames-1985-vs-2015.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
 
 
-#### License
 
-[MIT](https://opensource.org/licenses/MIT)
+
 
 #### References
 
@@ -350,11 +348,11 @@ A listing of current and former notable Congressmembers, including biographical 
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-congressmembers.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
 
 
-#### License
 
-[MIT](https://opensource.org/licenses/MIT)
+
 
 #### References
 
@@ -380,11 +378,11 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-federal-judges-biographies.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
 
 
-#### License
 
-[MIT](https://opensource.org/licenses/MIT)
+
 
 #### References
 
@@ -409,14 +407,14 @@ County-level results for the U.S. general elections in 2004 and 2008.
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
 This data actually comes from the wrangled version as created by the [Hello World Data project](https://github.com/helloworlddata/us-presidential-election-county-results).
 
 The 2012 data is [not currently available](https://gist.github.com/dannguyen/2de0fcd2ba3100b4698cd5af6ae61754).
 
 
-#### License
-
-[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 
@@ -442,11 +440,11 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
+License: [MIT](https://opensource.org/licenses/MIT)
 
 
-#### License
 
-[MIT](https://opensource.org/licenses/MIT)
+
 
 #### References
 

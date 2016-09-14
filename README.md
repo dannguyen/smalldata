@@ -21,7 +21,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        18x239
+        <code>18 x 239</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/berkeley-jail-bookings.csv">Raw CSV</a></td>
@@ -33,7 +33,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        3x92
+        <code>3 x 92</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv">Raw CSV</a></td>
@@ -45,7 +45,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        11x10002
+        <code>11 x 10002</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/census-2000-surnames.csv">Raw CSV</a></td>
@@ -57,7 +57,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        4x66
+        <code>4 x 66</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw CSV</a></td>
@@ -69,7 +69,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        28x11933
+        <code>28 x 11933</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/palo-altos-salaries.csv">Raw CSV</a></td>
@@ -81,7 +81,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        4x53028
+        <code>4 x 53028</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/ssa-babynames-1985-vs-2015.csv">Raw CSV</a></td>
@@ -93,7 +93,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        29x898
+        <code>29 x 898</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-congressmembers.csv">Raw CSV</a></td>
@@ -105,7 +105,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        202x3580
+        <code>202 x 3580</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-federal-judges-biographies.csv">Raw CSV</a></td>
@@ -117,7 +117,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        15x6308
+        <code>15 x 6308</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv">Raw CSV</a></td>
@@ -129,7 +129,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        22x6610
+        <code>22 x 6610</code>
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv">Raw CSV</a></td>
@@ -157,6 +157,10 @@ Adults booked into the Berkeley Police Department Jail over the past 30 days.
 Note: The "Subject" field, which contained the name of each inmate, has been removed.
 
 
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
 #### References
 
 
@@ -182,6 +186,10 @@ An example of a real-world salary spreadsheet.
 
 The original Buffer spreadsheet has a first line that reads "Buffer is hiring" instead of headers. The headers are on the second line. This facet is left in the Google spreadsheet and the CSV file for the user to deal with manually.
 
+
+#### License
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 #### References
 
@@ -210,6 +218,10 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 
 
 
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
 #### References
 
 
@@ -234,6 +246,10 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 - [CSV direct download](dataset.github_dataset_raw_url)
 
 
+
+#### License
+
+[Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/termsofuse)
 
 #### References
 
@@ -278,6 +294,10 @@ Here's the shell code I used to build the data (requires installing csvkit):
 ~~~
 
 
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
 #### References
 
 
@@ -302,6 +322,10 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 - [CSV direct download](dataset.github_dataset_raw_url)
 
 
+
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 
@@ -328,6 +352,10 @@ A listing of current and former notable Congressmembers, including biographical 
 
 
 
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
 #### References
 
 
@@ -353,6 +381,10 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 - [CSV direct download](dataset.github_dataset_raw_url)
 
 
+
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 
@@ -382,6 +414,10 @@ This data actually comes from the wrangled version as created by the [Hello Worl
 The 2012 data is [not currently available](https://gist.github.com/dannguyen/2de0fcd2ba3100b4698cd5af6ae61754).
 
 
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
+
 #### References
 
 
@@ -407,6 +443,10 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 - [CSV direct download](dataset.github_dataset_raw_url)
 
 
+
+#### License
+
+[MIT](https://opensource.org/licenses/MIT)
 
 #### References
 

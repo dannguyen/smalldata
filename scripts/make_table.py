@@ -17,7 +17,7 @@ ROW_TEMPLATE = Template("""
       </a>
     </td>
     <td>
-        {{dataset.ncols}}x{{dataset.nrows}}
+        <code>{{dataset.ncols}} x {{dataset.nrows}}</code>
     </td>
     <td><a href="{{dataset.google_spreadsheet_url}}">Spreadsheet</a></td>
     <td><a href="{{dataset.github_dataset_raw_url}}">Raw CSV</a></td>

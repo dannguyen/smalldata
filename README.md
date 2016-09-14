@@ -11,9 +11,6 @@ See the [datasets.yaml file in this repo](datasets.yaml) to see the metadata.
 <!-- begin makeindex -->
 
 
-python scripts/makeindex.py datasets.yaml
-
-
 -------------
 
 <a id="dataset-us-congressmembers"></a>

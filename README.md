@@ -5,16 +5,13 @@
 
 - [Google Spreadsheet](None)
 - [Github](datasets/us-congressmembers.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/us-congressmembers.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Sunlight Foundation](https://sunlightlabs.github.io/congress/#legislator-spreadsheet) |  2016-09-14 | 29 | 898 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 29 | 898 |
-
-
-###### Original publisher
-
-[Sunlight Foundation](https://sunlightlabs.github.io/congress/#legislator-spreadsheet)
 
 ###### Description
 
@@ -25,16 +22,13 @@ A listing of current and former notable Congressmembers, including biographical 
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns/edit#gid=817412220)
 - [Github](datasets/berkeley-jail-bookings.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/berkeley-jail-bookings.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [City of Berkeley](https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j) |  2016-09-14 | 18 | 239 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 18 | 239 |
-
-
-###### Original publisher
-
-[City of Berkeley](https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j)
 
 ###### Description
 
@@ -47,16 +41,13 @@ Note: The "Subject" field, which contained the name of each inmate, has been rem
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw/edit#gid=2004741670)
 - [Github](datasets/denver-marijuana-gross-sales.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/denver-marijuana-gross-sales.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [City and County of Denver Office of Marijuana Policy](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales) |  2016-09-14 | 4 | 66 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 4 | 66 |
-
-
-###### Original publisher
-
-[City and County of Denver Office of Marijuana Policy](https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales)
 
 ###### Description
 
@@ -67,16 +58,13 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0/edit#gid=865374786)
 - [Github](datasets/ssa-babynames-1985-vs-2015.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/ssa-babynames-1985-vs-2015.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Social Security Administration](https://www.ssa.gov/oact/babynames/limits.html) |  2016-09-14 | 4 | 53028 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 4 | 53028 |
-
-
-###### Original publisher
-
-[Social Security Administration](https://www.ssa.gov/oact/babynames/limits.html)
 
 ###### Description
 
@@ -87,16 +75,13 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I/edit#gid=66538324)
 - [Github](datasets/us-federal-judges-biographies.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/us-federal-judges-biographies.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Federal Judicial Center](http://www.fjc.gov/history/home.nsf/page/export.html) |  2016-09-14 | 202 | 3580 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 202 | 3580 |
-
-
-###### Original publisher
-
-[Federal Judicial Center](http://www.fjc.gov/history/home.nsf/page/export.html)
 
 ###### Description
 
@@ -107,16 +92,13 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs/edit#gid=442585932)
 - [Github](datasets/census-2000-surnames.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/census-2000-surnames.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [U.S. Census](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html) |   | 11 | 10002 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-|  | 11 | 10002 |
-
-
-###### Original publisher
-
-[U.S. Census](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html)
 
 ###### Description
 
@@ -127,16 +109,13 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4/edit#gid=524073830)
 - [Github](datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/search/) |   | 22 | 6610 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-|  | 22 | 6610 |
-
-
-###### Original publisher
-
-[United States Geological Survey](http://earthquake.usgs.gov/earthquakes/search/)
 
 ###### Description
 
@@ -147,16 +126,13 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI/edit#gid=392550862)
 - [Github](datasets/palo-altos-salaries.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/palo-altos-salaries.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [California Controller's Office](http://publicpay.ca.gov/Reports/RawExport.aspx) |  2016-09-14 | 28 | 11933 |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| 2016-09-14 | 28 | 11933 |
-
-
-###### Original publisher
-
-[California Controller's Office](http://publicpay.ca.gov/Reports/RawExport.aspx)
 
 ###### Description
 

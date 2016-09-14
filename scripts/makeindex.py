@@ -12,16 +12,13 @@ DATASET_TEMPLATE = Template("""
 
 - [Google Spreadsheet]({{dataset.urls.gdrive}})
 - [Github](datasets/{{dataset.slug}}.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/{{dataset.slug}}.csv)
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [{{dataset.publisher}}]({{dataset.urls.landing if dataset.urls.landing else dataset.urls.original}}) |  {{dataset.date_fetched}} | {{ncols}} | {{nrows}} |
 
 
-| Last fetched | Columns | Rows |
-|--------------|---------|------|
-| {{dataset.date_fetched}} | {{ncols}} | {{nrows}} |
-
-
-###### Original publisher
-
-[{{dataset.publisher}}]({{dataset.urls.landing if dataset.urls.landing else dataset.urls.original}})
 
 ###### Description
 

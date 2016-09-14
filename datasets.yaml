@@ -1,0 +1,23 @@
+- title: Buffer Open Salaries
+  date_fetched: 2016-08-26
+  urls:
+    gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
+    original: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
+    landing: https://open.buffer.com/transparent-salaries/
+
+
+- title: Berkeley PD Log - Jail Bookings
+  slug: berkeley-jail-bookings
+  date_fetched: 2016-09-14
+  urls:
+    original: https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j
+  caveats:
+    - "Subject" field has been removed
+
+- title: Denver Marijuana Gross Sales
+  slug: denver-marijuana-gross-sales
+  creator: City and County of Denver Office of Marijuana Policy
+  date_fetched: 2016-09-14
+  urls:
+    landing: https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales
+    original: http://data.denvergov.org/download/gis/marijuana_gross_sales/csv/marijuana_gross_sales.csv

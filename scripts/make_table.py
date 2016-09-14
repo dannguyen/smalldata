@@ -10,6 +10,8 @@ import yaml
 
 
 ROW_TEMPLATE = Template("""
+<h2>Contents</h2>
+
 <tr>
     <td>
       <a href="#{{dataset.anchortag}}">

@@ -1,14 +1,3 @@
-- title: Buffer Open Salaries
-  publisher: Buffer
-  slug: TK
-  description: |
-    An example of a real-world salary spreadsheet.
-  date_fetched: 2016-08-26
-  urls:
-    gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
-    original: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
-    landing: https://open.buffer.com/transparent-salaries/
-
 
 
 - title: U.S. Congressmembers
@@ -114,3 +103,30 @@
       done
       csvgrep -c 'Entity Name' -m 'Palo Alto' -e latin1 \
         allcities.csv > palo-altos-salaries.csv
+
+
+- title: U.S. Presidential Election County-Level Results, 2004 and 2008
+  slug: us-presidential-election-county-results-2004-vs-2008
+  publisher: USGS National Atlas
+  description: |
+    County-level results for the U.S. general elections in 2004 and 2008, as published by the National Atlas and then wrangled into a more convenient-to-analyze form.
+
+  date_fetched: 2016-08-01
+  urls:
+    landing: https://github.com/helloworlddata/us-presidential-election-county-results
+    gdrive: https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s/edit#gid=1965947663
+
+
+
+
+# - title: Buffer Open Salaries
+#   publisher: Buffer
+#   slug: TK
+#   description: |
+#     An example of a real-world salary spreadsheet.
+#   date_fetched: 2016-08-26
+#   urls:
+#     gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
+#     original: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
+#     landing: https://open.buffer.com/transparent-salaries/
+

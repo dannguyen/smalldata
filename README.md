@@ -6,12 +6,13 @@ Each dataset comes with a Google Spreadsheet and plaintext CSV URL, along with l
 
 See the [datasets.yaml file in this repo](datasets.yaml) to see the metadata.
 
-------------------------
 
 <!-- begin makeindex -->
+python scripts/makeindex.py datasets.yaml
 
 
 -------------
+
 
 <a id="dataset-us-congressmembers"></a>
 
@@ -185,5 +186,28 @@ Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI/edit#gid=392550862)
 - [Github](datasets/palo-altos-salaries.csv)
 - [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/palo-altos-salaries.csv)
+
+
+
+
+-------------
+
+<a id="dataset-us-presidential-election-county-results-2004-vs-2008"></a>
+
+
+## U.S. Presidential Election County-Level Results, 2004 and 2008
+
+County-level results for the U.S. general elections in 2004 and 2008, as published by the National Atlas and then wrangled into a more convenient-to-analyze form.
+
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [USGS National Atlas](https://github.com/helloworlddata/us-presidential-election-county-results) |  2016-08-01 | 15 | 6308 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s/edit#gid=1965947663)
+- [Github](datasets/us-presidential-election-county-results-2004-vs-2008.csv)
+- [CSV direct download](https://github.com/dannguyen/smalldata/raw/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv)
+
 
 

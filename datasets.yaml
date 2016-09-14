@@ -119,14 +119,15 @@
 
 
 
-# - title: Buffer Open Salaries
-#   publisher: Buffer
-#   slug: TK
-#   description: |
-#     An example of a real-world salary spreadsheet.
-#   date_fetched: 2016-08-26
-#   urls:
-#     gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
-#     original: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
-#     landing: https://open.buffer.com/transparent-salaries/
+- title: Buffer Open Salaries
+  publisher: Buffer
+  slug: buffer-open-salaries
+  license: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+  description: |
+    An example of a real-world salary spreadsheet.
+  date_fetched: 2016-08-26
+  urls:
+    gdrive: https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs/edit#gid=1533208969
+    original: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
+    landing: https://open.buffer.com/transparent-salaries/
 

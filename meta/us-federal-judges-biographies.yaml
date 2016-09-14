@@ -1,0 +1,26 @@
+title: U.S. Federal Judges Biographical Directory
+slug: us-federal-judges-biographies
+date_fetched: 2016-09-14
+description: |
+  Biographical and political information about U.S. federal judges, from 1789 to the present.
+
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Federal Judicial Center
+  url: http://www.fjc.gov/history/home.nsf/page/export.html
+
+
+gsheet:
+  id: 1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I
+  sheets:
+      - description: Data
+        gid: 66538324
+
+
+references:
+  - title: Direct source download (csv)
+    url: http://www.fjc.gov/history/export/jb.txt

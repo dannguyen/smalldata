@@ -1,0 +1,26 @@
+
+-------------
+
+<a id="dataset-{{dataset.slug}}"></a>
+
+
+## {{dataset.title}}
+
+{{dataset.description}}
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [{{dataset.publisher_name}}]({{dataset.publisher_url}}) |  {{dataset.date_fetched}} | {{ncols}} | {{nrows}} |
+
+- [Google Spreadsheet]({{dataset.google_spreadsheet_url}})
+- [Github]({{dataset.github_dataset_url}})
+- [CSV direct download](dataset.github_dataset_raw_url)
+
+{% if dataset.notes -%}{{ dataset.notes }}{% endif %}
+
+{% if dataset.references -%}
+#### References
+
+{% for r in dataset.references %}
+- [{{r.title}}]({{r.url}}){% endfor %}
+{% endif %}

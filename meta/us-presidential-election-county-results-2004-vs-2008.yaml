@@ -1,0 +1,38 @@
+title: U.S. Presidential Election County-Level Results, 2004 and 2008
+slug: us-presidential-election-county-results-2004-vs-2008
+date_fetched: 2016-08-01
+description: |
+  County-level results for the U.S. general elections in 2004 and 2008.
+
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: USGS National Atlas
+  url: https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download
+
+
+gsheet:
+  id: 1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s
+  sheets:
+      - description: Data
+        gid: 1965947663
+
+
+
+notes: |
+  This data actually comes from the wrangled version as created by the [Hello World Data project](https://github.com/helloworlddata/us-presidential-election-county-results).
+
+  The 2012 data is [not currently available](https://gist.github.com/dannguyen/2de0fcd2ba3100b4698cd5af6ae61754).
+
+
+
+
+references:
+  - title: Data.gov landing page for 2004 Presidential General Election, County Results
+    url: http://catalog.data.gov/dataset/2004-presidential-general-election-county-results-direct-download
+
+  - title: Data.gov landing page for 2008 Presidential General Election, County Results
+    url: https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download

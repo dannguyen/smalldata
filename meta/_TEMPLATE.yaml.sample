@@ -1,0 +1,39 @@
+title: NAME
+slug: should_be_same_as_filename # but is probably optional...
+date_fetched: 2016-09-09
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: "U.S. Census"
+  url: http://www.census.gov/topics/population/genealogy/data/2000_surnames.html
+
+
+gsheet:
+  id: 15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs
+  sheets:
+      - description: Data
+        gid: 442585932
+
+
+
+
+description: |
+  This will get rendered as Github flavored Markdown
+
+
+notes: |
+  For more detailed notes, also rendered as Markdown.
+
+
+references:
+  - title: Direct source download (zip)
+    url: http://www2.census.gov/topics/genealogy/2000surnames/names.zip
+
+
+
+
+exercises:
+  - title: Some exercise

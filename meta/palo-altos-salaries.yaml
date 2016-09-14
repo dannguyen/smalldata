@@ -1,0 +1,49 @@
+title: Palo Alto and East Palo Alto City Employee Salaries
+slug: palo-altos-salaries
+date_fetched: 2016-09-14
+
+description: |
+  Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+
+publisher:
+  name: California State Controller
+  url: http://publicpay.ca.gov/
+
+
+gsheet:
+  id: 1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI
+  sheets:
+      - description: Data
+        gid: 392550862
+
+
+
+notes: |
+
+  Here's the shell code I used to build the data (requires installing csvkit):
+
+  ~~~
+    curl -O http://publicpay.ca.gov/RawExport/[2009-2015]_City.zip
+
+    unzip '*.csv'
+
+    sed -n 5p  2009_City.csv > all.csv find . -name '*_City.csv' \
+      | while read -r fname; do
+          tail -n +6 "$fname" \
+           >> all-cities.csv
+        done
+
+    csvgrep -c 'Entity Name' -m 'Palo Alto' \
+        -e latin1 \
+        all-cities.csv > palo-altos-salaries.csv
+  ~~~
+
+
+references:
+  - title: Source list of zipped data files
+    url: http://publicpay.ca.gov/Reports/RawExport.aspx

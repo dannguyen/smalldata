@@ -1,0 +1,27 @@
+title: U.S. Baby Names 1985 vs. 2015
+slug: ssa-babynames-1985-vs-2015
+date_fetched: 2016-09-14
+description: |
+  Nationwide counts of baby names by sex, according to Social Security Number applications in the years 1985 and 2015.
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Social Security Administration
+  url: https://www.ssa.gov/oact/babynames/limits.html
+
+
+gsheet:
+  id: 17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0
+  sheets:
+      - description: Data
+        gid: 865374786
+
+
+references:
+  - title: Direct source download (zip)
+    url: https://www.ssa.gov/oact/babynames/names.zip
+
+

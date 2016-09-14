@@ -1,0 +1,35 @@
+title: Berkeley Police Department Jail Bookings
+slug: berkeley-jail-bookings
+date_fetched: 2016-09-14
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+
+publisher:
+  name: City of Berkeley
+  url: https://data.cityofberkeley.info/Public-Safety/Berkeley-PD-Log-Jail-Bookings/7ykt-c32j/about
+
+
+gsheet:
+  id: 1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns
+  sheets:
+      - description: Data
+        gid: 817412220
+
+description: |
+  Adults booked into the Berkeley Police Department Jail over the past 30 days.
+
+
+notes: |
+  Note: The "Subject" field, which contained the name of each inmate, has been removed.
+
+
+references:
+  - title: Direct source download (CSV)
+    url: https://data.cityofberkeley.info/api/views/7ykt-c32j/rows.csv?accessType=DOWNLOAD
+
+
+
+

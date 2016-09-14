@@ -1,0 +1,32 @@
+title: Denver Marijuana Gross Sales
+slug: denver-marijuana-gross-sales
+date_fetched: 2016-09-14
+
+license:
+  name: Creative Commons Attribution 3.0
+  url: https://www.denvergov.org/opendata/termsofuse
+
+
+description: |
+  This data set summarizes the total dollar value of medical and retail marijuana sold within the City and County of Denver.
+
+
+publisher:
+  name: City and County of Denver Office of Marijuana Policy
+  url: https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-marijuana-gross-sales
+
+
+gsheet:
+  id: 1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw
+  sheets:
+      - description: Data
+        gid: 2004741670
+
+
+
+references:
+  - title: Direct source download (CSV)
+    url: http://data.denvergov.org/download/gis/marijuana_gross_sales/csv/marijuana_gross_sales.csv
+
+
+

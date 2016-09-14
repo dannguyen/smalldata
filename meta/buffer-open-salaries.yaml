@@ -1,0 +1,35 @@
+title: Buffer Open Salaries
+slug: buffer-open-salaries
+date_fetched: 2016-08-26
+description: |
+  An example of a real-world salary spreadsheet.
+
+publisher:
+  name: Buffer
+  url: https://open.buffer.com/transparent-salaries/
+
+
+gsheet:
+  id: 11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs
+  sheets:
+    - description: Data
+      gid: 1533208969
+
+license:
+  name: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+notes: |
+  The original Buffer spreadsheet has a first line that reads "Buffer is hiring" instead of headers. The headers are on the second line. This facet is left in the Google spreadsheet and the CSV file for the user to deal with manually.
+
+references:
+
+  - title: Source spreadsheet
+    url: https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2
+  - title: Buffer + Transparency Overview
+    url: https://buffer.com/transparency
+
+  - title: Buffer's tweet approving of our inclusion of their spreadsheet as an example.
+    url: https://twitter.com/buffer/status/776129045897568256
+
+

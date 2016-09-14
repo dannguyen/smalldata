@@ -1,0 +1,29 @@
+title: U.S. Congressmembers
+slug: us-congressmembers
+date_fetched: 2016-09-14
+description: |
+  A listing of current and former notable Congressmembers, including biographical information and identifiers into other databases.
+
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Sunlight Foundation and the unitedstates project
+  url: https://sunlightlabs.github.io/congress/#legislator-spreadsheet
+
+
+gsheet:
+  id: 1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk
+  sheets:
+      - description: Data
+        gid: 913782697
+
+
+references:
+  - title: Direct source download (CSV)
+    url: http://unitedstates.sunlightfoundation.com/legislators/legislators.csv
+
+  - title: unitedstates/congress-legislators repo
+    url: https://github.com/unitedstates/congress-legislators

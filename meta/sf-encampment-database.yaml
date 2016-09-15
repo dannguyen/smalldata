@@ -1,0 +1,53 @@
+title: San Francisco Homeless Encampment Database
+slug: sf-encampment-database
+date_fetched: 2016-09-09
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: San Francisco Department of Public Works
+  url: https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/
+
+local_filepath: datasets/sf-encampment-database.xlsx
+
+gsheet:
+  id: 1b8eHUNQ1eeeDcPnAhF01KvRn3HYEOZHr7E7vucdZuho
+  sheets:
+      - description: Geographical listing of encampments
+        gid: 587114326
+
+      - description: Assessments of encampments
+        gid: 847809999
+
+      - description: Actions taken regarding encampments
+        gid: 2007116786
+
+      - description: Value reference/dictionary
+        gid: 665493480
+
+      - description: Data dictionary
+        gid: 785773644
+
+      - description: Action reference/dictionary
+        gid: 2108884688
+
+
+
+description: |
+  Homeless encampments and enforcement actions by the city of San Francisco.
+
+notes: |
+  This spreadsheet is likely not the actual system used for data entry by the city, but contains the static information exported by the city's database in response to a public records request.
+
+  Each sheet represents what would be a table in a typical relational database. For example, to map which encampments have children, we would have to join the two sheets, **assessments** and the **geographical** data, by the encampment ID.
+
+references:
+  - title: Parker Higgins Public Record Request
+    url: https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/#comm-278717
+
+  - title: Direct source download (XLSX)
+    url: https://d3gn0r3afghep.cloudfront.net/foia_files/2016/09/01/Encampment_Database_-_8-30-16_data_.xlsx
+
+

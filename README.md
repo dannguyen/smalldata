@@ -9,7 +9,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <!-- begin makeindex -->
 
-python scripts/make_table.py meta
+
 <h2>Contents</h2><table><tbody>
 
 <tr>
@@ -21,9 +21,10 @@ python scripts/make_table.py meta
     <td>
         <code>18 x 239</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/berkeley-jail-bookings.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/berkeley-jail-bookings.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-buffer-open-salaries">
@@ -33,9 +34,10 @@ python scripts/make_table.py meta
     <td>
         <code>3 x 81</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/14OFXkKWKGQhKmDBgCGdZiByPZ9iU7CE7nzdU8TltGkc">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/14OFXkKWKGQhKmDBgCGdZiByPZ9iU7CE7nzdU8TltGkc">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-census-2000-surnames">
@@ -45,9 +47,10 @@ python scripts/make_table.py meta
     <td>
         <code>11 x 10002</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/census-2000-surnames.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/census-2000-surnames.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-denver-marijuana-gross-sales">
@@ -57,9 +60,10 @@ python scripts/make_table.py meta
     <td>
         <code>4 x 66</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-palo-altos-salaries">
@@ -69,9 +73,23 @@ python scripts/make_table.py meta
     <td>
         <code>28 x 11933</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/palo-altos-salaries.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/palo-altos-salaries.csv">Raw csv</a></td>
 </tr>
+
+<tr>
+    <td>
+      <a href="#dataset-sf-encampment-database">
+        San Francisco Homeless Encampment Database
+      </a>
+    </td>
+    <td>
+        <code>60 x 369</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1b8eHUNQ1eeeDcPnAhF01KvRn3HYEOZHr7E7vucdZuho">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sf-encampment-database.xlsx">Raw workbook</a></td>
+</tr>
+
 <tr>
     <td>
       <a href="#dataset-ssa-babynames-1985-vs-2015">
@@ -81,9 +99,10 @@ python scripts/make_table.py meta
     <td>
         <code>4 x 53028</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/ssa-babynames-1985-vs-2015.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/ssa-babynames-1985-vs-2015.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-us-congressmembers">
@@ -93,9 +112,10 @@ python scripts/make_table.py meta
     <td>
         <code>29 x 898</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-congressmembers.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-congressmembers.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-us-federal-judges-biographies">
@@ -105,9 +125,10 @@ python scripts/make_table.py meta
     <td>
         <code>202 x 3580</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-federal-judges-biographies.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-federal-judges-biographies.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-us-presidential-election-county-results-2004-vs-2008">
@@ -117,9 +138,10 @@ python scripts/make_table.py meta
     <td>
         <code>15 x 6308</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv">Raw csv</a></td>
 </tr>
+
 <tr>
     <td>
       <a href="#dataset-usgs-m4-earthquakes-contiguous-united-states">
@@ -129,11 +151,11 @@ python scripts/make_table.py meta
     <td>
         <code>22 x 6610</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4">Spreadsheet</a></td>
-    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv">Raw CSV</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv">Raw csv</a></td>
 </tr>
+
 </tbody></table>
-find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
@@ -151,7 +173,7 @@ Adults booked into the Berkeley Police Department Jail over the past 30 days.
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1lH2P_0Bb6aZdldjLZXmUnp-zoocXmCGFMojM59kkLns)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/berkeley-jail-bookings.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/berkeley-jail-bookings.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -181,7 +203,7 @@ An example of a real-world salary spreadsheet.
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/14OFXkKWKGQhKmDBgCGdZiByPZ9iU7CE7nzdU8TltGkc)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/buffer-open-salaries.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv)
 
 License: [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -214,7 +236,7 @@ The top 10,000 most popular surnames as recorded by the U.S. 2000 Census. Includ
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/census-2000-surnames.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/census-2000-surnames.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -243,7 +265,7 @@ This data set summarizes the total dollar value of medical and retail marijuana 
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/denver-marijuana-gross-sales.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv)
 
 License: [Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/termsofuse)
 
@@ -272,7 +294,7 @@ Salary data from 2009 through 2015 for Palo Alto and East Palo Alto
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nTdSBLcUxrm29jZ1Tn6tZ8fYYNHPv_h79m0JVK_5RFI)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/palo-altos-salaries.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/palo-altos-salaries.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -305,6 +327,39 @@ Here's the shell code I used to build the data (requires installing csvkit):
 
 -------------
 
+<a id="dataset-sf-encampment-database"></a>
+
+
+## San Francisco Homeless Encampment Database
+
+Homeless encampments and enforcement actions by the city of San Francisco.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [San Francisco Department of Public Works](https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/) |  2016-09-09 | 60 | 369 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1b8eHUNQ1eeeDcPnAhF01KvRn3HYEOZHr7E7vucdZuho)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/sf-encampment-database.xlsx)
+- [Direct download of workbook](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sf-encampment-database.xlsx)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+This spreadsheet is likely not the actual system used for data entry by the city, but contains the static information exported by the city's database in response to a public records request.
+
+Each sheet represents what would be a table in a typical relational database. For example, to map which encampments have children, we would have to join the two sheets, **assessments** and the **geographical** data, by the encampment ID.
+
+
+
+#### References
+
+
+- [Parker Higgins Public Record Request](https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/#comm-278717)
+- [Direct source download (XLSX)](https://d3gn0r3afghep.cloudfront.net/foia_files/2016/09/01/Encampment_Database_-_8-30-16_data_.xlsx)
+
+-------------
+
 <a id="dataset-ssa-babynames-1985-vs-2015"></a>
 
 
@@ -319,7 +374,7 @@ Nationwide counts of baby names by sex, according to Social Security Number appl
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17dDrhGrKV68USZT55LVFMOyhD-JnBFW7jg-S3DQprZ0)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/ssa-babynames-1985-vs-2015.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/ssa-babynames-1985-vs-2015.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -348,7 +403,7 @@ A listing of current and former notable Congressmembers, including biographical 
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1mfETOUsi2h18m4ETqLFwLYNCE0wOKcZhKYwVjz53pAk)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-congressmembers.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-congressmembers.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -378,7 +433,7 @@ Biographical and political information about U.S. federal judges, from 1789 to t
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1EhWjKUF9OrWiPr_EzE_3kupTqf98Kdnr7co6hg4sb5I)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-federal-judges-biographies.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-federal-judges-biographies.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -407,7 +462,7 @@ County-level results for the U.S. general elections in 2004 and 2008.
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1v6zqutv__4TiO0nahVJOyfs-NlD_IB7KUULRiicSO9s)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/us-presidential-election-county-results-2004-vs-2008.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -440,7 +495,7 @@ All 4.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United S
 
 - [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1DXcqRnuxfoDNHi6c_5TTXYa8smeif-moSWI5G14IDR4)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
-- [CSV direct download](dataset.github_dataset_raw_url)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv)
 
 License: [MIT](https://opensource.org/licenses/MIT)
 
@@ -453,4 +508,3 @@ License: [MIT](https://opensource.org/licenses/MIT)
 
 - [Direct source download (CSV)](http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=1900-01-01%2000:00:00&endtime=2016-12-31%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=4&orderby=time-asc)
 - [Glossary](http://earthquake.usgs.gov/earthquakes/feed/v1.0/glossary.php)
-

@@ -357,6 +357,7 @@ Each sheet represents what would be a table in a typical relational database. Fo
 
 - [Parker Higgins Public Record Request](https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/#comm-278717)
 - [Direct source download (XLSX)](https://d3gn0r3afghep.cloudfront.net/foia_files/2016/09/01/Encampment_Database_-_8-30-16_data_.xlsx)
+- [City of San Francicsco catalog of data catalogs](https://data.sfgov.org/widgets/ebux-gcnq)
 
 -------------
 

@@ -9,7 +9,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <!-- begin makeindex -->
 
-
+python scripts/make_table.py meta
 <h2>Contents</h2><table><tbody>
 
 <tr>
@@ -31,9 +31,9 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
       </a>
     </td>
     <td>
-        <code>3 x 92</code>
+        <code>3 x 81</code>
     </td>
-    <td><a href="https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs">Spreadsheet</a></td>
+    <td><a href="https://docs.google.com/spreadsheets/d/14OFXkKWKGQhKmDBgCGdZiByPZ9iU7CE7nzdU8TltGkc">Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/buffer-open-salaries.csv">Raw CSV</a></td>
 </tr>
 <tr>
@@ -133,6 +133,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m4-earthquakes-contiguous-united-states.csv">Raw CSV</a></td>
 </tr>
 </tbody></table>
+find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
@@ -176,9 +177,9 @@ An example of a real-world salary spreadsheet.
 
 | Publisher   | Last fetched | Columns | Rows |
 |-------------|----|---------|------|
-| [Buffer](https://open.buffer.com/transparent-salaries/) |  2016-08-26 | 3 | 92 |
+| [Buffer](https://open.buffer.com/transparent-salaries/) |  2016-08-26 | 3 | 81 |
 
-- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/11PkKMR26eqrLUjbCQvqwIB7k2gYMlohC5BIV24z1Xgs)
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/14OFXkKWKGQhKmDBgCGdZiByPZ9iU7CE7nzdU8TltGkc)
 - [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/buffer-open-salaries.csv)
 - [CSV direct download](dataset.github_dataset_raw_url)
 
@@ -195,6 +196,7 @@ The original Buffer spreadsheet has a first line that reads "Buffer is hiring" i
 - [Source spreadsheet](https://docs.google.com/spreadsheets/d/1l3bXAv8JE5RB9siMq36-Ogngks2MT6yQ5gt8YXhUyAg/edit#gid=1533208969&vpid=G2)
 - [Buffer + Transparency Overview](https://buffer.com/transparency)
 - [Buffer's tweet approving of our inclusion of their spreadsheet as an example.](https://twitter.com/buffer/status/776129045897568256)
+- [Buffer Diversity Dashboard](https://diversity.buffer.com/)
 
 -------------
 

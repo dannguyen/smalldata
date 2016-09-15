@@ -10,7 +10,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 <!-- begin makeindex -->
 
 
-python scripts/make_table.py meta
+
 <h2>Contents</h2><table><tbody>
 
 <tr>
@@ -107,7 +107,7 @@ python scripts/make_table.py meta
 <tr>
     <td>
       <a href="#dataset-sfpd-drug-incidents">
-        San Francisco Robbery Incidents
+        San Francisco Drug and Narcotics-Related Incidents
       </a>
     </td>
     <td>
@@ -196,7 +196,6 @@ python scripts/make_table.py meta
 </tr>
 
 </tbody></table>
-find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
@@ -430,7 +429,7 @@ Each sheet represents what would be a table in a typical relational database. Fo
 <a id="dataset-sfpd-drug-incidents"></a>
 
 
-## San Francisco Robbery Incidents
+## San Francisco Drug and Narcotics-Related Incidents
 
 Drug/narcotics-related incidents reported to the SFPD from 2009 to the nearest reporting period (Sept. 2016).
 

@@ -10,7 +10,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 <!-- begin makeindex -->
 
 
-
 <h2>Contents</h2><table><tbody>
 
 <tr>
@@ -63,6 +62,19 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Google Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-florida-death-row">
+        Florida Death Row
+      </a>
+    </td>
+    <td>
+        <code>9 x 492</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/12AFPLsTqILHGGL4TFbGCd_3PQ6KhDqZWtIQKaZ3D1Sg">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/florida-death-row.csv">Raw csv</a></td>
 </tr>
 
 <tr>
@@ -317,6 +329,45 @@ License: [Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/t
 
 
 - [Direct source download (CSV)](http://data.denvergov.org/download/gis/marijuana_gross_sales/csv/marijuana_gross_sales.csv)
+
+-------------
+
+<a id="dataset-florida-death-row"></a>
+
+
+## Florida Death Row
+
+Florida's list of prisoners awaiting execution.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Florida Department of Corrections](http://www.census.gov/topics/population/genealogy/data/2000_surnames.html) |  2016-09-15 | 9 | 492 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/12AFPLsTqILHGGL4TFbGCd_3PQ6KhDqZWtIQKaZ3D1Sg)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/florida-death-row.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/florida-death-row.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+Some inmates are listed multiple times to correspond to multiple counts of capital crimes.
+
+This was the tally on the death row landing page:
+
+
+| category            | count |
+|---------------------|-------|
+| Total White Males   | 221   |
+| Total Black Males   | 151   |
+| Total Other Males   | 12    |
+| Total White Females | 1     |
+| Total Black Females | 2     |
+| Total Other Females | 1     |
+| 9/15/2016 Total     | 388   |
+
+
+
 
 -------------
 

@@ -1,0 +1,41 @@
+title: Florida Death Row
+slug: florida-death-row
+date_fetched: 2016-09-15
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Florida Department of Corrections
+  url: http://www.census.gov/topics/population/genealogy/data/2000_surnames.html
+
+
+gsheet:
+  id: 12AFPLsTqILHGGL4TFbGCd_3PQ6KhDqZWtIQKaZ3D1Sg
+  sheets:
+      - description: Data
+        gid: 0
+
+
+
+description: |
+  Florida's list of prisoners awaiting execution.
+
+
+notes: |
+  Some inmates are listed multiple times to correspond to multiple counts of capital crimes.
+
+  This was the tally on the death row landing page:
+
+
+  | category            | count |
+  |---------------------|-------|
+  | Total White Males   | 221   |
+  | Total Black Males   | 151   |
+  | Total Other Males   | 12    |
+  | Total White Females | 1     |
+  | Total Black Females | 2     |
+  | Total Other Females | 1     |
+  | 9/15/2016 Total     | 388   |
+

@@ -7,8 +7,8 @@ license:
   url: https://opensource.org/licenses/MIT
 
 publisher:
-  name: "U.S. Census"
-  url: http://www.census.gov/topics/population/genealogy/data/2000_surnames.html
+  name: PUBNAME
+  url: PUBHTML
 
 
 gsheet:

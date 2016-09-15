@@ -1,0 +1,35 @@
+title: San Francisco Robbery Incidents
+slug: sfpd-drug-incidents # but is probably optional...
+date_fetched: 2016-09-14
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: San Francisco Police Department
+  url: https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry/about
+
+
+gsheet:
+  id: 1kMoLf48msyRKgBCAXQFWKSTwNmiEKjbbRS4-I05GwBg
+  sheets:
+      - description: Data
+        gid: 783168363
+
+
+description: |
+  Drug/narcotics-related incidents reported to the SFPD from 2009 to the nearest reporting period (Sept. 2016).
+
+
+notes: |
+  This data is actually excerpted from the wrangled version on Hello World Data.
+
+
+references:
+  - title: Direct source download (CSV)
+    url: https://data.sfgov.org/api/views/tmnf-yvry/rows.csv?accessType=DOWNLOAD
+  - title: SFPD Incident data on Hello World Data
+    url: https://github.com/helloworlddata/sfpd-incidents
+
+

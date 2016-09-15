@@ -12,10 +12,10 @@ publisher:
 
 
 gsheet:
-  id: 15G0cLi9MEnWjllaFA8T_FGCNj_rlSXlxFSZBpYCtavs
+  id: ggg
   sheets:
       - description: Data
-        gid: 442585932
+        gid: 000
 
 
 
@@ -32,8 +32,3 @@ references:
   - title: Direct source download (zip)
     url: http://www2.census.gov/topics/genealogy/2000surnames/names.zip
 
-
-
-
-exercises:
-  - title: Some exercise

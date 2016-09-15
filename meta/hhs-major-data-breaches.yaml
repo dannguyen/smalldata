@@ -1,0 +1,23 @@
+title: Health Data Breaches Affecting 500 or More Individuals
+slug: hhs-major-data-breaches # but is probably optional...
+date_fetched: 2016-09-14
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: U.S. Department of Health and Human Services, Office of Civil Rights
+  url: https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf
+
+
+gsheet:
+  id: 1f8EyM4JzD129e6-BqT1WFeK7COpb6W88OLK__o2f65k
+  sheets:
+      - description: Data
+        gid: 1371594851
+
+description: |
+  A list of breaches of unsecured protected health information affecting 500 or more individuals.
+
+

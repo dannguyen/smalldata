@@ -10,6 +10,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 <!-- begin makeindex -->
 
 
+python scripts/make_table.py meta
 <h2>Contents</h2><table><tbody>
 
 <tr>
@@ -66,6 +67,19 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <tr>
     <td>
+      <a href="#dataset-hhs-major-data-breaches">
+        Health Data Breaches Affecting 500 or More Individuals
+      </a>
+    </td>
+    <td>
+        <code>9 x 1656</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1f8EyM4JzD129e6-BqT1WFeK7COpb6W88OLK__o2f65k">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/hhs-major-data-breaches.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
       <a href="#dataset-palo-altos-salaries">
         Palo Alto and East Palo Alto City Employee Salaries
       </a>
@@ -88,6 +102,32 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1b8eHUNQ1eeeDcPnAhF01KvRn3HYEOZHr7E7vucdZuho">Google Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sf-encampment-database.xlsx">Raw workbook</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-sfpd-drug-incidents">
+        San Francisco Robbery Incidents
+      </a>
+    </td>
+    <td>
+        <code>7 x 53853</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1kMoLf48msyRKgBCAXQFWKSTwNmiEKjbbRS4-I05GwBg">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sfpd-drug-incidents.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-sfpd-robbery-incidents">
+        San Francisco Robbery Incidents
+      </a>
+    </td>
+    <td>
+        <code>10 x 27839</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/14tJcv8LHadVCIolq1G_CDV8jv3Cmv-CaBuqbii7WWZ4">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sfpd-robbery-incidents.csv">Raw csv</a></td>
 </tr>
 
 <tr>
@@ -156,6 +196,7 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 </tr>
 
 </tbody></table>
+find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
@@ -280,6 +321,31 @@ License: [Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/t
 
 -------------
 
+<a id="dataset-hhs-major-data-breaches"></a>
+
+
+## Health Data Breaches Affecting 500 or More Individuals
+
+A list of breaches of unsecured protected health information affecting 500 or more individuals.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [U.S. Department of Health and Human Services, Office of Civil Rights](https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf) |  2016-09-14 | 9 | 1656 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1f8EyM4JzD129e6-BqT1WFeK7COpb6W88OLK__o2f65k)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/hhs-major-data-breaches.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/hhs-major-data-breaches.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+
+
+
+
+-------------
+
 <a id="dataset-palo-altos-salaries"></a>
 
 
@@ -358,6 +424,68 @@ Each sheet represents what would be a table in a typical relational database. Fo
 - [Parker Higgins Public Record Request](https://www.muckrock.com/foi/san-francisco-141/san-francisco-encampment-database-27910/#comm-278717)
 - [Direct source download (XLSX)](https://d3gn0r3afghep.cloudfront.net/foia_files/2016/09/01/Encampment_Database_-_8-30-16_data_.xlsx)
 - [City of San Francicsco catalog of data catalogs](https://data.sfgov.org/widgets/ebux-gcnq)
+
+-------------
+
+<a id="dataset-sfpd-drug-incidents"></a>
+
+
+## San Francisco Robbery Incidents
+
+Drug/narcotics-related incidents reported to the SFPD from 2009 to the nearest reporting period (Sept. 2016).
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [San Francisco Police Department](https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry/about) |  2016-09-14 | 7 | 53853 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1kMoLf48msyRKgBCAXQFWKSTwNmiEKjbbRS4-I05GwBg)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/sfpd-drug-incidents.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sfpd-drug-incidents.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+This data is actually excerpted from the wrangled version on Hello World Data.
+
+
+
+#### References
+
+
+- [Direct source download (CSV)](https://data.sfgov.org/api/views/tmnf-yvry/rows.csv?accessType=DOWNLOAD)
+- [SFPD Incident data on Hello World Data](https://github.com/helloworlddata/sfpd-incidents)
+
+-------------
+
+<a id="dataset-sfpd-robbery-incidents"></a>
+
+
+## San Francisco Robbery Incidents
+
+Robbery incidents reported to the SFPD from 2009 to the nearest reporting period (Sept. 2016).
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [San Francisco Police Department](https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry/about) |  2016-09-16 | 10 | 27839 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/14tJcv8LHadVCIolq1G_CDV8jv3Cmv-CaBuqbii7WWZ4)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/sfpd-robbery-incidents.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/sfpd-robbery-incidents.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+This data is actually excerpted from the wrangled version on Hello World Data.
+
+
+
+#### References
+
+
+- [Direct source download (CSV)](https://data.sfgov.org/api/views/tmnf-yvry/rows.csv?accessType=DOWNLOAD)
+- [SFPD Incident data on Hello World Data](https://github.com/helloworlddata/sfpd-incidents)
 
 -------------
 

@@ -1,0 +1,35 @@
+title: San Francisco Robbery Incidents
+slug: sfpd-robbery-incidents # but is probably optional...
+date_fetched: 2016-09-16
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: San Francisco Police Department
+  url: https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry/about
+
+
+gsheet:
+  id: 14tJcv8LHadVCIolq1G_CDV8jv3Cmv-CaBuqbii7WWZ4
+  sheets:
+      - description: Data
+        gid: 412809614
+
+
+description: |
+  Robbery incidents reported to the SFPD from 2009 to the nearest reporting period (Sept. 2016).
+
+
+notes: |
+  This data is actually excerpted from the wrangled version on Hello World Data.
+
+
+references:
+  - title: Direct source download (CSV)
+    url: https://data.sfgov.org/api/views/tmnf-yvry/rows.csv?accessType=DOWNLOAD
+  - title: SFPD Incident data on Hello World Data
+    url: https://github.com/helloworlddata/sfpd-incidents
+
+

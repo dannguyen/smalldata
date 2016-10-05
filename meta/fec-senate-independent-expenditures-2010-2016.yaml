@@ -1,0 +1,45 @@
+title: FEC Senate Independent Expenditures, 2010 and 2016
+slug: fec-senate-independent-expenditures-2010-2016
+date_fetched: 2016-10-04
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Federal Election Commission
+  url: http://www.fec.gov/data/IndependentExpenditure.do?format=html
+
+
+gsheet:
+  id: 1cvhjCqk8RaYubWRcTBp4spG3Ho6LevzerWM9tAGP-Wg
+  sheets:
+      - description: Data
+        gid: 657405624
+
+
+
+description: |
+  Selected columns of independent expenditures for the 2010 and 2016 Senate races.
+
+notes: |
+  To bootstrap:
+
+  ~~~
+  echo "can_id,can_nam,spe_id,spe_nam,can_par_aff,can_off,can_off_sta,exp_amo,exp_dat,sup_opp,pur,pay" \
+   > datasets/fec-california-congress-independent-expenditures.csv
+
+  seq 2010 6 2016 | while read -r year; do
+      curl "http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=$year"  \
+    | csvgrep -c can_off -r 'S'  \
+    | csvcut -c \
+      "can_id,can_nam,spe_id,spe_nam,can_par_aff,can_off,can_off_sta,exp_amo,exp_dat,sup_opp,pur,pay" \
+    | sed '1d' \
+    >> datasets/fec-california-congress-independent-expenditures.csv
+  done
+  ~~~
+
+references:
+  - title: Direct source download (csv)
+    url: http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016
+

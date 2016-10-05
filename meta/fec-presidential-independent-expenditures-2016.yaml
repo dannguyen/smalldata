@@ -1,0 +1,40 @@
+title: FEC Independent Expenditures in the 2016 Presidential Race
+slug: fec-presidential-independent-expenditures-2016
+date_fetched: 2016-10-04
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: Federal Election Commission
+  url: http://www.fec.gov/data/IndependentExpenditure.do?format=html
+
+
+gsheet:
+  id: 1ePxa1XgM_XWSKWhBEWrz2jdjhn2dCSYWpPws6MFfeiE
+  sheets:
+      - description: Data
+        gid: 1264608863
+
+
+
+description: |
+  Selected columns of independent expenditures for the 2016 Presidential race.
+
+
+notes: |
+  To bootstrap:
+
+  ~~~
+  curl 'http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016' \
+  | csvgrep -c can_off -m P  \
+  | csvcut -c \
+    'can_id,can_nam,spe_id,spe_nam,can_par_aff,exp_amo,exp_dat,sup_opp,pur,pay' \
+  > datasets/fec-presidential-independent-expenditures-2016.csv
+  ~~~
+
+references:
+  - title: Direct source download (csv)
+    url: http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016
+

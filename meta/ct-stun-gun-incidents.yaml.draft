@@ -1,0 +1,38 @@
+title: Connecticut Stun Gun Incidents
+slug: ct-stun-gun-incidents # but is probably optional...
+date_fetched: 2016-09-15
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: PUBNAME
+  url: PUBHTML
+
+
+gsheet:
+  id: ggg
+  sheets:
+      - description: Data
+        gid: 000
+
+
+
+
+description: |
+  This will get rendered as Github flavored Markdown
+
+
+notes: |
+  For more detailed notes, also rendered as Markdown.
+
+
+references:
+  - title: Direct source download (xlsx)
+    url: http://www.ccsu.edu/imrp/projects/files/2015%20Reported%20Taser%20Data.xlsx
+  - title: CT police fire stun guns at blacks, Hispanics at a higher rate
+    url: http://trendct.org/2016/01/27/racial-disparities-when-police-use-stun-guns-in-connecticut/
+
+  - title: The Electronic Defense Weapon Analysis and Findings Report (PDF)
+    url: http://www.ccsu.edu/imrp/projects/files/EDW.pdf

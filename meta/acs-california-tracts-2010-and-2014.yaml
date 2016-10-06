@@ -1,0 +1,61 @@
+title: American Community Survey 5-Year Stats for California Tracts, 2010 and 2014
+slug: acs-california-tracts-2010-and-2014 # but is probably optional...
+date_fetched: 2016-10-06
+
+license:
+  name: MIT
+  url: https://opensource.org/licenses/MIT
+
+publisher:
+  name: U.S. Census API
+  url: http://www.census.gov/data/developers/data-sets/acs-survey-5-year-data.html
+
+
+gsheet:
+  id: 1_8eRHuQ_N_IifgcdNWL1iwU1vHXaB7tpPi3Tj-pjSb8
+  sheets:
+      - description: Data
+        gid: 1725734857
+
+
+
+
+description: |
+  Census ACS data for California tracts, for the two years of 2010 and 2014
+
+
+
+references:
+  - title: ACS Technical Documentation
+    url: http://www.census.gov/programs-surveys/acs/technical-documentation.html
+
+
+
+notes: |
+
+  TOugh join
+
+  SELECT
+    catracts2015.*,
+    total_population,
+    tract_name,
+    white,asian,
+    black,hispanic,
+    below_poverty_line,
+    median_household_income,
+    adults_25_to_64_with_bachelors_degree,
+    population_5_and_over,
+    english_only_population_5_and_over,
+    owner_occupied_homes_median_value,
+    median_age,
+    total_households,
+    foreign_born_population
+    FROM catracts2015
+    INNER JOIN
+       acs_california_tracts_2010_and_2014
+       ON
+        acs_california_tracts_2010_and_2014.geo_id = CONCAT('14000', RIGHT(catracts2015.affgeoid, 13))
+
+
+    where year = 2014
+

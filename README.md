@@ -9,8 +9,20 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <!-- begin makeindex -->
 
-
 <h2>Contents</h2><table><tbody>
+
+<tr>
+    <td>
+      <a href="#dataset-acs-california-tracts-2010-and-2014">
+        American Community Survey 5-Year Stats for California Tracts, 2010 and 2014
+      </a>
+    </td>
+    <td>
+        <code>20 x 16114</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1_8eRHuQ_N_IifgcdNWL1iwU1vHXaB7tpPi3Tj-pjSb8">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/acs-california-tracts-2010-and-2014.csv">Raw csv</a></td>
+</tr>
 
 <tr>
     <td>
@@ -62,6 +74,45 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
     </td>
     <td><a href="https://docs.google.com/spreadsheets/d/1MxgnMXRJjjZkX82I1gdPlyfnqMzo6AX5R0s6vRICfiw">Google Spreadsheet</a></td>
     <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/denver-marijuana-gross-sales.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-fec-presidential-independent-expenditures-2012">
+        FEC Independent Expenditures in the 2012 Presidential Race
+      </a>
+    </td>
+    <td>
+        <code>10 x 54107</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/zzz">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-presidential-independent-expenditures-2012.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-fec-presidential-independent-expenditures-2016">
+        FEC Independent Expenditures in the 2016 Presidential Race
+      </a>
+    </td>
+    <td>
+        <code>10 x 48380</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1ePxa1XgM_XWSKWhBEWrz2jdjhn2dCSYWpPws6MFfeiE">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-presidential-independent-expenditures-2016.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
+      <a href="#dataset-fec-senate-independent-expenditures-2010-2016">
+        FEC Senate Independent Expenditures, 2010 and 2016
+      </a>
+    </td>
+    <td>
+        <code>12 x 61621</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1cvhjCqk8RaYubWRcTBp4spG3Ho6LevzerWM9tAGP-Wg">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-senate-independent-expenditures-2010-2016.csv">Raw csv</a></td>
 </tr>
 
 <tr>
@@ -196,6 +247,19 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 
 <tr>
     <td>
+      <a href="#dataset-usgs-m3-earthquakes-contiguous-united-states-2005-thru-2015">
+        M3.0+ Earthquakes in the Contiguous United States, From 2005 through 2015
+      </a>
+    </td>
+    <td>
+        <code>22 x 9511</code>
+    </td>
+    <td><a href="https://docs.google.com/spreadsheets/d/1GdYEXyGNeDMgUDlsidhMDnp1HdIcfkCLzh8WhOh1hM4">Google Spreadsheet</a></td>
+    <td><a href="https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m3-earthquakes-contiguous-united-states-2005-thru-2015.csv">Raw csv</a></td>
+</tr>
+
+<tr>
+    <td>
       <a href="#dataset-usgs-m4-earthquakes-contiguous-united-states">
         M4.0+ Earthquakes in the Contiguous United States
       </a>
@@ -208,6 +272,62 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 </tr>
 
 </tbody></table>
+find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
+
+-------------
+
+<a id="dataset-acs-california-tracts-2010-and-2014"></a>
+
+
+## American Community Survey 5-Year Stats for California Tracts, 2010 and 2014
+
+Census ACS data for California tracts, for the two years of 2010 and 2014
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [U.S. Census API](http://www.census.gov/data/developers/data-sets/acs-survey-5-year-data.html) |  2016-10-06 | 20 | 16114 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1_8eRHuQ_N_IifgcdNWL1iwU1vHXaB7tpPi3Tj-pjSb8)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/acs-california-tracts-2010-and-2014.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/acs-california-tracts-2010-and-2014.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+
+TOugh join
+
+SELECT
+  catracts2015.*,
+  total_population,
+  tract_name,
+  white,asian,
+  black,hispanic,
+  below_poverty_line,
+  median_household_income,
+  adults_25_to_64_with_bachelors_degree,
+  population_5_and_over,
+  english_only_population_5_and_over,
+  owner_occupied_homes_median_value,
+  median_age,
+  total_households,
+  foreign_born_population
+  FROM catracts2015
+  INNER JOIN
+     acs_california_tracts_2010_and_2014
+     ON
+      acs_california_tracts_2010_and_2014.geo_id = CONCAT('14000', RIGHT(catracts2015.affgeoid, 13))
+
+
+  where year = 2014
+
+
+
+#### References
+
+
+- [ACS Technical Documentation](http://www.census.gov/programs-surveys/acs/technical-documentation.html)
 
 -------------
 
@@ -329,6 +449,126 @@ License: [Creative Commons Attribution 3.0](https://www.denvergov.org/opendata/t
 
 
 - [Direct source download (CSV)](http://data.denvergov.org/download/gis/marijuana_gross_sales/csv/marijuana_gross_sales.csv)
+
+-------------
+
+<a id="dataset-fec-presidential-independent-expenditures-2012"></a>
+
+
+## FEC Independent Expenditures in the 2012 Presidential Race
+
+Selected columns of independent expenditures for the 2012 Presidential race.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Federal Election Commission](http://www.fec.gov/data/IndependentExpenditure.do?format=html) |  2016-10-04 | 10 | 54107 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/zzz)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/fec-presidential-independent-expenditures-2012.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-presidential-independent-expenditures-2012.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+To bootstrap:
+
+~~~
+curl 'http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2012' \
+| csvgrep -c can_off -m P  \
+| csvcut -c \
+  'can_id,can_nam,spe_id,spe_nam,can_par_aff,exp_amo,exp_dat,sup_opp,pur,pay' \
+> datasets/fec-presidential-independent-expenditures-2012.csv
+~~~
+
+
+
+#### References
+
+
+- [Direct source download (csv)](http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2012)
+
+-------------
+
+<a id="dataset-fec-presidential-independent-expenditures-2016"></a>
+
+
+## FEC Independent Expenditures in the 2016 Presidential Race
+
+Selected columns of independent expenditures for the 2016 Presidential race.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Federal Election Commission](http://www.fec.gov/data/IndependentExpenditure.do?format=html) |  2016-10-04 | 10 | 48380 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1ePxa1XgM_XWSKWhBEWrz2jdjhn2dCSYWpPws6MFfeiE)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/fec-presidential-independent-expenditures-2016.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-presidential-independent-expenditures-2016.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+To bootstrap:
+
+~~~
+curl 'http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016' \
+| csvgrep -c can_off -m P  \
+| csvcut -c \
+  'can_id,can_nam,spe_id,spe_nam,can_par_aff,exp_amo,exp_dat,sup_opp,pur,pay' \
+> datasets/fec-presidential-independent-expenditures-2016.csv
+~~~
+
+
+
+#### References
+
+
+- [Direct source download (csv)](http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016)
+
+-------------
+
+<a id="dataset-fec-senate-independent-expenditures-2010-2016"></a>
+
+
+## FEC Senate Independent Expenditures, 2010 and 2016
+
+Selected columns of independent expenditures for the 2010 and 2016 Senate races.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [Federal Election Commission](http://www.fec.gov/data/IndependentExpenditure.do?format=html) |  2016-10-04 | 12 | 61621 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1cvhjCqk8RaYubWRcTBp4spG3Ho6LevzerWM9tAGP-Wg)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/fec-senate-independent-expenditures-2010-2016.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/fec-senate-independent-expenditures-2010-2016.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+To bootstrap:
+
+~~~
+echo "can_id,can_nam,spe_id,spe_nam,can_par_aff,can_off,can_off_sta,exp_amo,exp_dat,sup_opp,pur,pay" \
+ > datasets/fec-california-congress-independent-expenditures.csv
+
+seq 2010 6 2016 | while read -r year; do
+    curl "http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=$year"  \
+  | csvgrep -c can_off -r 'S'  \
+  | csvcut -c \
+    "can_id,can_nam,spe_id,spe_nam,can_par_aff,can_off,can_off_sta,exp_amo,exp_dat,sup_opp,pur,pay" \
+  | sed '1d' \
+  >> datasets/fec-california-congress-independent-expenditures.csv
+done
+~~~
+
+
+
+#### References
+
+
+- [Direct source download (csv)](http://www.fec.gov/data/IndependentExpenditure.do?format=csv&election_yr=2016)
 
 -------------
 
@@ -657,6 +897,36 @@ The 2012 data is [not currently available](https://gist.github.com/dannguyen/2de
 
 - [Data.gov landing page for 2004 Presidential General Election, County Results](http://catalog.data.gov/dataset/2004-presidential-general-election-county-results-direct-download)
 - [Data.gov landing page for 2008 Presidential General Election, County Results](https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download)
+
+-------------
+
+<a id="dataset-usgs-m3-earthquakes-contiguous-united-states-2005-thru-2015"></a>
+
+
+## M3.0+ Earthquakes in the Contiguous United States, From 2005 through 2015
+
+All 3.0+ magnitude earthquakes as recorded by the USGS for the lower 48 United States, for the years 2005 through 2015.
+
+
+| Publisher   | Last fetched | Columns | Rows |
+|-------------|----|---------|------|
+| [United States Geological Survey](http://earthquake.usgs.gov/earthquakes/search/) |  2016-10-05 | 22 | 9511 |
+
+- [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1GdYEXyGNeDMgUDlsidhMDnp1HdIcfkCLzh8WhOh1hM4)
+- [Github](https://github.com/dannguyen/smalldata/blob/master/datasets/usgs-m3-earthquakes-contiguous-united-states-2005-thru-2015.csv)
+- [Direct download of csv](https://raw.githubusercontent.com/dannguyen/smalldata/master/datasets/usgs-m3-earthquakes-contiguous-united-states-2005-thru-2015.csv)
+
+License: [MIT](https://opensource.org/licenses/MIT)
+
+
+
+
+
+#### References
+
+
+- [Direct source download (CSV)](http://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2005-01-01%2000:00:00&endtime=2015-12-31%2023:59:59&maxlatitude=50&minlatitude=24.6&maxlongitude=-65&minlongitude=-125&minmagnitude=4&orderby=time-asc)
+- [Glossary](http://earthquake.usgs.gov/earthquakes/feed/v1.0/glossary.php)
 
 -------------
 

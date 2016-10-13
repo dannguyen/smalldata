@@ -272,7 +272,6 @@ See the [meta/](meta/) folder in this repo to see the metadata for each dataset.
 </tr>
 
 </tbody></table>
-find 'meta' -name '*.yaml' | xargs -n 1 python scripts/make_html.py
 
 -------------
 
